@@ -141,20 +141,4 @@ CREATE TABLE AuthorArticles(
 						CONSTRAINT FK_AA_ArticleID FOREIGN KEY(ArticleID) REFERENCES Articles(ArticleID)
 						ON UPDATE CASCADE
 						   )
-GO
 
-
-		-- Articles tablosu ekle: PublicationYear, ArticleName, AcademicID, DepartmentID
---DROP TABLE Academics
---DROP TABLE Courses
---DROP TABLE Departments
---DROP TABLE Faculties
---DROP TABLE Students
---DROP TABLE Terms
---DROP TABLE Years
---DROP TABLE RegistrationDetails
---DROP TABLE Articles
---DROP TABLE AuthorArticles
---DROP TABLE StudentTermGPA
---DROP TABLE StudentCourses
---DROP TABLE LecturerCourses
