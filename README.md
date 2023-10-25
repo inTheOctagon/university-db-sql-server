@@ -1,1 +1,1 @@
-A university database made with SQL Server.
+A university database which is built on Microsoft SQL Server.
